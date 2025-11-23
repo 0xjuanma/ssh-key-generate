@@ -15,8 +15,8 @@ The script will prompt for your email and generate an Ed25519 SSH key at `~/.ssh
 
 ## Add to Platform
 
-After generation, copy your public key to add it to GitHub, GitLab, or other platforms:
+After generation, copy your public key to add it to [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account), GitLab, or other platforms:
 
 ```bash
-cat ~/.ssh/id_ed25519.pub
+pbcopy < ~/.ssh/id_ed25519.pub
 ```
