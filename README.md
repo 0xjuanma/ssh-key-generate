@@ -11,6 +11,8 @@ chmod +x generate-ssh.sh
 
 The script will prompt for your email and generate an Ed25519 SSH key at `~/.ssh/id_ed25519`.
 
+**Note**: The script will exit if a key already exists at that location to prevent accidental overwrites.
+
 ## Add to Platform
 
 After generation, copy your public key to add it to GitHub, GitLab, or other platforms:
