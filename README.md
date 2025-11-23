@@ -2,6 +2,8 @@
 
 This is a small script to generate SSH keys following [GitHub's docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
+For convenience, this script is also available as a [Github gist](https://gist.github.com/0xjuanma/1a07ca535def6afb175a88078752b11e).
+
 ## Usage
 
 ```bash
